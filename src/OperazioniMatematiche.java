@@ -19,6 +19,8 @@ public class OperazioniMatematiche {
         System.out.println("Il prodotto dei due numeri è: " + Prodotto(n1,n2));
 
         System.out.println("Il quoziente dei due numeri è: " + Quoziente(n1,n2));
+
+        System.out.println("Il modulo dei due numeri è: " + Modulo(n1,n2));
     }
 
     public static int Somma(int n1, int n2){
@@ -37,4 +39,7 @@ public class OperazioniMatematiche {
         return n1/n2;
     }
 
+    public static int Modulo(int n1, int n2){
+        return n1%n2;
+    }
 }
